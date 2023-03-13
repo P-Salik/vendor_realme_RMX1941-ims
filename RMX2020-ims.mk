@@ -1,18 +1,13 @@
+# Ims App
 PRODUCT_PACKAGES += \
     ImsService \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
 
+# IMS Jars
+PRODUCT_PACKAGES += \
+    mediatek-common \
+    mediatek-ims-base
+
+# IMS Boot Jar
 PRODUCT_BOOT_JARS += \
     mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    mediatek-ims-base
